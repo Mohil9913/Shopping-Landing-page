@@ -1,0 +1,267 @@
+/* available fonts:
+    Kdam Thmor Pro
+    Fascinate */
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    font-family: "Kdam Thmor Pro", sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* INDEX */
+
+#index{
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+}
+
+.mine-home-div{
+    padding: 3% 8% 0 8%;
+    background-color: #06283D;
+}
+
+/* .navbar{
+    background-color: #0AA1DD;
+} */
+
+.navbar-brand{
+    font-family: "Fascinate", sans-serif;
+    color: white;
+}
+.navbar-brand:hover{
+    color: #2155CD;
+}
+
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: #2155CD;
+}
+
+.mine-vr{
+    margin: auto;
+    color: white;
+    height: auto;
+    margin-top: 7px;
+    margin-bottom: 12px;
+    /* media added */
+}
+
+.nav-item{
+    padding: 0px 10px;
+}
+
+/* TYPE */
+
+#type{
+    padding-top: 50px;
+}
+
+.mine-search{
+    padding: 5% 15% 0 15%;
+    background-color: #06283D;
+    /* media added */
+}
+
+.mine-sdiv{
+    width: inherit;
+}
+
+.mine-search-mar{
+    margin-bottom: 50px;
+}
+
+.mine-type-row{
+    margin: 0;
+}
+
+.mine-card{
+    margin: 50px;
+    width: 14rem;
+    background-color: #06283D;
+    /* background-color: #212529ea; */
+    /* media added */
+}
+.mine-card:hover{
+    box-shadow: 3px 3px 5px black;
+}
+
+.mine-type-a{
+    text-decoration: none;
+    color: white;
+}
+
+.mine-card-img-top{
+    padding: 5px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+.mine-type-vr{
+    margin: auto;
+    /* color: white; */
+    height: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    /* media added */
+}
+
+.mine-tdiv{
+    margin: 50px;
+    /* media added */
+}
+
+.mine-tbutton{
+    margin: auto;
+    padding: 10px;
+}
+
+.mine-btn{
+    width: inherit;
+    background-color: #06283D;;
+}
+
+.btn:hover{
+    /* box-shadow: 3px 3px 5px black; */
+    background-color: transparent;
+    color: black;
+}
+
+/* CARO */
+
+/* PRODUCT */
+
+#product{
+    margin-top: 100px;
+}
+
+.mine-scroll{
+    white-space: nowrap;
+    overflow: auto;
+}
+.mine-scroll::-webkit-scrollbar{
+    display: none;
+}
+
+.mine-divi{
+    display: inline-block;
+    margin: 0;
+}
+
+.mine-pro-mar{
+    margin-top: 50px;
+}
+
+.mine-product-card{
+    margin: 20px;
+    width: 10.2rem;
+    background-color: #06283D;
+    /* background-color: #212529ea; */
+}
+
+.my-card-img{
+    padding: 5px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+.mine-pro-hr{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* FOOTER */
+
+#footer{
+    background-color: #06283D;
+    padding: 30px;
+}
+
+.mine-footer-row{
+    padding: 0 350px;
+    /* media added */
+}
+
+.navbar-fbrand{
+    font-family: "Fascinate", sans-serif;
+    color: white;
+}
+
+.mine-footer-text{
+    color: white;
+}
+
+.mine-fdiv{
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+.mine-footer-h{
+    color: white;
+    font-size: large;
+}
+
+.mine-footer-t{
+    margin: 0;
+    color: white;
+    font-size: smaller;
+}
+
+.mine-fa{
+    text-decoration: none;
+}
+
+/* MEDIA */
+
+@media(max-width:1200px){
+    .mine-card{
+        margin: 50px 30px;
+    }
+    .mine-tdiv{
+        margin: 50px 30px;
+    }
+    .mine-footer-row{
+        padding: 0;
+    }
+}
+
+@media(max-width:991px){
+    .mine-card{
+        margin: 50px;
+    }
+    .mine-tdiv{
+        margin: 50px;
+    }
+    .mine-vr{
+        visibility: hidden;
+        margin: 0;
+    }
+    .mine-search{
+        padding: 5% 5% 0 5%;
+    }
+}
+
+@media(max-width:574px){
+    .mine-card{
+        margin-top: 0;
+    }
+    .mine-type-vr{
+        visibility: hidden;
+    }
+    .mine-tdiv{
+        margin-top: 0;
+    }
+}
