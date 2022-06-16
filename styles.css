@@ -9,10 +9,10 @@ body::-webkit-scrollbar{
 body{
     font-family: "Kdam Thmor Pro", sans-serif;
     text-align: center;
-    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    background-image: linear-gradient(to top, #74ebd5 0%, #9face6 100%);
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
 }
 
@@ -70,6 +70,7 @@ body{
 .mine-search{
     padding: 5% 15% 0 15%;
     background-color: #06283D;
+    box-shadow: 0 0 20px black;
     /* media added */
 }
 
@@ -89,12 +90,28 @@ body{
     margin: 50px;
     width: 14rem;
     background-color: #06283D;
-    /* background-color: #212529ea; */
     /* media added */
 }
-.mine-card:hover{
-    box-shadow: 3px 3px 5px black;
+
+.mine-blue-text:hover{
+    color: rgb(67, 67, 255);
 }
+.mine-blue-color:hover{
+    box-shadow: 0 0 25px rgb(67, 67, 255);
+}
+.mine-pink-text:hover{
+    color: rgb(253, 57, 202);
+}
+.mine-pink-color:hover{
+    box-shadow: 0 0 25px rgb(255, 57, 202);
+}
+.mine-cyan-text:hover{
+    color: cyan;
+}
+.mine-cyan-color:hover{
+    box-shadow: 0 0 25px cyan;
+}
+
 
 .mine-type-a{
     text-decoration: none;
@@ -132,12 +149,15 @@ body{
 }
 
 .btn:hover{
-    /* box-shadow: 3px 3px 5px black; */
     background-color: transparent;
     color: black;
 }
 
 /* CARO */
+
+#caro{
+    box-shadow: 0 0 15px black;
+}
 
 /* PRODUCT */
 
@@ -182,6 +202,15 @@ body{
     margin-bottom: 20px;
 }
 
+.mine-pbtn{
+    width: inherit;
+    background-color: #06283D;
+    padding: 8 30px;
+    margin: 0 30px;
+}
+.mine-pbtn:hover{
+    background-color: transparent;
+}
 
 /* FOOTER */
 
@@ -198,6 +227,7 @@ body{
 .navbar-fbrand{
     font-family: "Fascinate", sans-serif;
     color: white;
+    text-decoration: none;
 }
 
 .mine-footer-text{
