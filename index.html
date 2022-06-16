@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Site Demo | Home</title>
 
+    <!-- animation link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!--Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
@@ -27,10 +30,9 @@
 </head>
 <body>
     <section id="index">
-
         <div>
             <nav class="navbar navbar-expand-lg mine-home-div">
-                <a class="navbar-brand" href=""><h1>The B<u>rand</u></h1></a>
+                <a class="navbar-brand" href=""><h1>T<u>he Br</u>and</h1></a>
     
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -76,8 +78,8 @@
         </div>
         <div class="row mine-type-row">
             <div class="d-flex justify-content-evenly col-lg-3 col-md-6 col-sm-6">
-                <div class="card mine-card">
-                    <a class="mine-type-a" href="#">
+                <div data-aos="fade-up" class="card mine-card mine-blue-color">
+                    <a class="mine-type-a mine-blue-text" href="#">
                         <img src="https://i.postimg.cc/X7qcCxbM/pexels-chloe-1043474.jpg" class="card-img-top mine-card-img-top" alt="Image Missing">
                         <div class="card-body">
                         <h5 class="card-title">Man's Fashion</h5>
@@ -87,8 +89,8 @@
             </div>
     
               <div class="d-flex justify-content-evenly col-lg-3 col-md-6 col-sm-6">
-                <div class="card mine-card">
-                    <a class="mine-type-a" href="#">
+                <div data-aos="fade-down" class="card mine-card mine-pink-color">
+                    <a class="mine-type-a mine-pink-text" href="#">
                         <img src="https://i.postimg.cc/wTmd3zvS/pexels-guillaume-meurice-2331101.jpg" class="card-img-top mine-card-img-top" alt="Image Missing">
                         <div class="card-body">
                           <h5 class="card-title">Woman's Fashion</h5>
@@ -98,8 +100,8 @@
               </div>
     
               <div class="d-flex justify-content-evenly col-lg-3 col-md-6 col-sm-6">
-                <div class="card mine-card">
-                    <a class="mine-type-a" href="#">
+                <div data-aos="fade-up" class="card mine-card mine-cyan-color">
+                    <a class="mine-type-a mine-cyan-text" href="#">
                         <img src="https://i.postimg.cc/fLvjxrys/pexels-victoria-borodinova-16207601.jpg
                         " class="card-img-top mine-card-img-top" alt="Image Missing">
                         <div class="card-body">
@@ -113,7 +115,7 @@
 
                 <div class="vr mine-type-vr"></div>
 
-                <div class="row mine-tdiv">
+                <div data-aos="fade-right" class="row mine-tdiv">
                     <div class="mine-tbutton col-lg-12 col-sm-12">
                         <button type="button" class="btn btn-dark mine-btn">Glasses</button>
                     </div>
@@ -163,14 +165,14 @@
     </section>
 
     <section id="product">
-        <div class="mine-pro-mar">
+        <div data-aos="flip-down" class="mine-pro-mar">
             <div>
                 <hr class="mine-pro-hr">
                 <h4>Shirt Section</h4>
                 <hr class="mine-pro-hr">
             </div>
 
-            <div class="mine-scroll">
+            <div data-aos="fade-down" class="mine-scroll">
 
                 <div class="mine-divi">
                     <div class="card mine-product-card">
@@ -239,26 +241,19 @@
                 </div>
 
                 <div class="mine-divi">
-                    <div class="card mine-product-card">
-                        <a class="mine-type-a" href="#">
-                            <img src="https://i.postimg.cc/QdVDDTq1/Screenshot-30.png" class="card-img-top my-card-img" alt="Image Missing">
-                            <div class="card-body">
-                            <h5 class="card-title">Name</h5>
-                            </div>
-                        </a>
-                    </div>
+                            <button type="button" class="btn btn-dark mine-pbtn">View More</button>
                 </div>
             </div>
         </div>
 
-        <div class="mine-pro-mar">
+        <div data-aos="flip-down" class="mine-pro-mar">
             <div>
                 <hr class="mine-pro-hr">
                 <h4>T-Shirt Section</h4>
                 <hr class="mine-pro-hr">
             </div>
 
-            <div class="mine-scroll">
+            <div data-aos="fade-down" class="mine-scroll">
 
                 <div class="mine-divi">
                     <div class="card mine-product-card">
@@ -327,26 +322,19 @@
                 </div>
 
                 <div class="mine-divi">
-                    <div class="card mine-product-card">
-                        <a class="mine-type-a" href="#">
-                            <img src="https://i.postimg.cc/V6rDgY1x/images-9.jpg" class="card-img-top my-card-img" alt="Image Missing">
-                            <div class="card-body">
-                            <h5 class="card-title">Name</h5>
-                            </div>
-                        </a>
-                    </div>
+                    <button type="button" class="btn btn-dark mine-pbtn">View More</button>
                 </div>
             </div>
         </div>
 
-        <div class="mine-pro-mar">
+        <div data-aos="flip-down" class="mine-pro-mar">
             <div>
                 <hr class="mine-pro-hr">
                 <h4>Jeans Section</h4>
                 <hr class="mine-pro-hr">
             </div>
 
-            <div class="mine-scroll">
+            <div data-aos="fade-down" class="mine-scroll">
 
                 <div class="mine-divi">
                     <div class="card mine-product-card">
@@ -415,14 +403,7 @@
                 </div>
 
                 <div class="mine-divi">
-                    <div class="card mine-product-card">
-                        <a class="mine-type-a" href="#">
-                            <img src="https://i.postimg.cc/Sx1FRxK8/images-6.jpg" class="card-img-top my-card-img" alt="Image Missing">
-                            <div class="card-body">
-                            <h5 class="card-title">Name</h5>
-                            </div>
-                        </a>
-                    </div>
+                    <button type="button" class="btn btn-dark mine-pbtn">View More</button>
                 </div>
             </div>
         </div>
@@ -430,7 +411,7 @@
 
     <section id="footer">
         <div>
-            <h3><a class="navbar-fbrand" href="">The B<u>rand</u></a></h3>
+            <h3><a class="navbar-fbrand" href="">T<u>he Br</u>and</a></h3>
             <h6 class="mine-footer-text">Th<u>e #1 Online Cloth</u>ing Brand</h6>
         </div>
         <div class="row mine-footer-row">
@@ -452,5 +433,11 @@
             </div>
         </div>
     </section>
+
+    <!-- animation file -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
